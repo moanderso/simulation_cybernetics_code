@@ -22,7 +22,7 @@ function setup() {
 
 // runs every frame
 function draw() {
-  background(0,0,255);
+  background(255,255,255);
   fill(255, 255, 255);
 
   // https://p5js.org/reference/#/p5/ellipse
@@ -34,7 +34,7 @@ function draw() {
   // https://p5js.org/reference/#/p5/rect
   rect(30, 20, 55, 55);
 
-  fill(255, 100, 0);
+  fill(255, 255, 0);
   rotate(0.1);
   rect(200, 180, 55, 55);
   resetMatrix();
