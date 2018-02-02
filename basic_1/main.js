@@ -22,7 +22,7 @@ function setup() {
 
 // runs every frame
 function draw() {
-  background(255,255,255);
+  background(35,102,209);
   fill(255, 255, 255);
 
   // https://p5js.org/reference/#/p5/ellipse
